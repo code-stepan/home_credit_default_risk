@@ -1,0 +1,23 @@
+{
+  "logreg_woe": {
+    "cv_roc_auc_mean": 0.7508,
+    "roc_auc": 0.7551,
+    "gini": 0.5103,
+    "pr_auc": 0.236,
+    "ks": 0.3838,
+    "best_threshold_f1": 0.6629,
+    "f1_at_threshold": 0.3039,
+    "psi_holdout_vs_train": 0.0001
+  },
+  "catboost": {
+    "cv_roc_auc_mean": 0.7686,
+    "roc_auc": 0.7737,
+    "gini": 0.5473,
+    "pr_auc": 0.2674,
+    "ks": 0.4096,
+    "best_threshold_f1": 0.6755,
+    "f1_at_threshold": 0.3239,
+    "psi_holdout_vs_train": 0.0002
+  },
+  "best_model": "catboost"
+}
